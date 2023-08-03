@@ -1,0 +1,21 @@
+.projects{
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+
+.title{
+    color:rgb(149, 91, 204);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1040px) {
+    
+}
