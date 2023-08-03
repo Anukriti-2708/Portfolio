@@ -168,3 +168,22 @@ background: linear-gradient(0deg, rgb(149, 91, 204) 41%, rgb(68, 27, 98) 100%);
   }
 }
 
+@media screen and (max-width: 576px) {
+
+  .dynamic-txt li {
+  font-size: 1.3rem;
+  padding: 2px;
+  }
+
+    .text-box .dynamic-txt {
+      margin-left: 15xp;
+      height: 31px;
+      line-height: 30px;
+      padding-top: 5px;
+      overflow: hidden;
+    }
+
+    .home-wrapper{
+      height: 96vh;
+    }
+}
