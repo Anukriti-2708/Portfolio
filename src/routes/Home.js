@@ -30,19 +30,19 @@ const Home = () => {
           <h3> Hey, it's me! </h3>
           <ul className='dynamic-txt'>
 
-            <li><span> I am Anukriti Saxena  </span></li>
+            <li><span> I am Anukriti Saxena</span></li>
             <li><span>A MERN Stack Developer</span></li>
 
           </ul>
 
         </div>
-        <div className='socials'>
-
-          <a href="https://github.com/Anukriti-2708"><SiGithub/></a>
-          <a href="https://leetcode.com/Anukriti_27/"><SiLeetcode/></a>
-          <a href="https://www.linkedin.com/in/anukriti-saxena-65842b14a/"><SiLinkedin/></a>
+        <ul className='socials'>
+           
+          <li><a href="https://github.com/Anukriti-2708" className='icon'><SiGithub /></a></li>
+          <li><a href="https://leetcode.com/Anukriti_27/" className='icon'><SiLeetcode/></a></li>
+          <li><a href="https://www.linkedin.com/in/anukriti-saxena-65842b14a/" className='icon'><SiLinkedin/></a></li>
          
-      </div>
+      </ul>
       </div>
        <div class="custom-shape-divider-bottom-1690823229">
        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

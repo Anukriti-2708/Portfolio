@@ -16,11 +16,9 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 300px) and (max-width: 650px) {
-    .title{
-        margin-top: 9px;
-    }
+@media screen and (min-width: 200px) and (max-width: 650px) {
     .projects{
-        width: 120%;
+        margin-top: 100px;
     }
+    
 }

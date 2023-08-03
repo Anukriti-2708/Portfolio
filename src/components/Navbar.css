@@ -43,6 +43,9 @@
     display: none;
 }
 
+  
+
+
 
 @media screen  and (max-width: 1040px){
     .nav-menu{
@@ -83,4 +86,9 @@
         display: initial;
         z-index: 2;
     }
+    
+        
+    
+    
+    
 }

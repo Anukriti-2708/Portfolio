@@ -79,7 +79,7 @@ img{
 
 .form-group{
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-top: 40px;
 }
 
@@ -173,18 +173,19 @@ button:hover {
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     .contacts{
         width: 100%;
-        margin: 0;
+        
     }
 
     .form{
-        width: 450px;
-        height: 490px;
+        width: 470px;
+        height: 500px;
         
     }
 }
+
 
 
 

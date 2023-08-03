@@ -2,6 +2,7 @@ import "./Navbar.css"
 import { Link } from 'react-scroll';
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { SiGithub, SiLinkedin, SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
 
@@ -29,8 +30,11 @@ const Navbar = () => {
       <a href="/" className="portfolio">
         <h1>Portfolio</h1>
       </a>
+        
+          
+        
       {screenSize <= 1040 ? (
-        <>
+        <> 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li>
               <Link to="home-wrapper" spy={true} smooth={true} onClick={handleLinkClick}>
@@ -52,6 +56,12 @@ const Navbar = () => {
                 Resume
               </a>
             </li>
+             <li><a href="https://github.com/Anukriti-2708" className='icon'><SiGithub /></a></li>
+             <li><a href="https://leetcode.com/Anukriti_27/" className='icon'><SiLeetcode/></a></li>
+             <li><a href="https://www.linkedin.com/in/anukriti-saxena-65842b14a/" className='icon'><SiLinkedin /></a></li>
+
+          
+      
           </ul>
           <div className="hamburger" onClick={handleClick}>
             {click ? <FaTimes size={20} style={{ color: '#fff' }} /> : <FaBars size={20} style={{ color: '#fff' }} />}
