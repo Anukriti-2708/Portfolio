@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.aab4371d.css",
+    "main.css": "/Portfolio/static/css/main.eaffda91.css",
     "main.js": "/Portfolio/static/js/main.b002079e.js",
     "static/media/portfolio_img.jpg": "/Portfolio/static/media/portfolio_img.22893cb90aa202fcbb24.jpg",
     "static/media/hedwig-r.png": "/Portfolio/static/media/hedwig-r.5a7b9849c1d2cef4f064.png",
@@ -8,11 +8,11 @@
     "static/media/amazon store clone image.jpg": "/Portfolio/static/media/amazon store clone image.65bc3d983c2c1627e192.jpg",
     "static/media/woman working.jpg": "/Portfolio/static/media/woman working.004c8fcd60846a083a2c.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.aab4371d.css.map": "/Portfolio/static/css/main.aab4371d.css.map",
+    "main.eaffda91.css.map": "/Portfolio/static/css/main.eaffda91.css.map",
     "main.b002079e.js.map": "/Portfolio/static/js/main.b002079e.js.map"
   },
   "entrypoints": [
-    "static/css/main.aab4371d.css",
+    "static/css/main.eaffda91.css",
     "static/js/main.b002079e.js"
   ]
 }
