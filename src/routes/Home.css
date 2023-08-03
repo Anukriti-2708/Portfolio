@@ -168,10 +168,10 @@ background: linear-gradient(0deg, rgb(149, 91, 204) 41%, rgb(68, 27, 98) 100%);
   }
 }
 
-@media screen and (min-width: 450px) and (max-width: 650px) {
+@media screen and (min-width: 300px) and (max-width: 650px) {
 
   .dynamic-txt li {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding: 2px;
   }
 
@@ -184,6 +184,7 @@ background: linear-gradient(0deg, rgb(149, 91, 204) 41%, rgb(68, 27, 98) 100%);
     }
          .home-wrapper{
           height:97vh;
+          width: 100%;
          }
         
       }

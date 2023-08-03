@@ -16,8 +16,11 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 450px) and (max-width: 650px) {
+@media screen and (min-width: 300px) and (max-width: 650px) {
     .title{
         margin-top: 9px;
+    }
+    .projects{
+        width: 120%;
     }
 }

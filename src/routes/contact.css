@@ -3,6 +3,7 @@
 background: rgb(149, 91, 204);
 background: linear-gradient(0deg, rgb(149, 91, 204) 41%, rgb(68, 27, 98) 100%);
 
+
 }
 
 .custom-shape-divider-top-1690922334 {
@@ -168,6 +169,20 @@ button:hover {
     .img{
         width: 300px;
         height: auto;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+    .contacts{
+        width: 100%;
+        margin: 0;
+    }
+
+    .form{
+        width: 450px;
+        height: 490px;
+        
     }
 }
 
